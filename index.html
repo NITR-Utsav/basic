@@ -5,6 +5,9 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="main.css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<!-- Material Design Bootstrap -->
+  	<link href="https://mdbootstrap.com/previews/templates/landing-page/css/mdb.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 </head>
 
 <body >
@@ -19,60 +22,11 @@
 								<polyline class="st0" points="6.4,0.4 3.4,3.4 0.4,0.4 "/>
 							</svg>
 						</button>
-
-						<div class="list">
-						</div>
 					</section>
-					
-					<section class="component-widget-miniplayer paused">
-						<div class="controls">
-							<button type="button" class="control previous" data-action="prev">
-								<svg class="svg previous" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" xml:space="preserve">
-									<title>Previous</title>
-									<g>
-										<polyline class="st0" points="9.4,13.5 4.4,10 9.4,6.5 	"/>
-										<polyline class="st0" points="14.5,13.5 9.5,10 14.5,6.5 	"/>
-									</g>
-								</svg>
-							</button>
-							
-							<button type="button" class="control pausePlay" data-action="pausePlay">
-								<svg class="svg play" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15 15" xml:space="preserve">
-									<title>Play</title>
-									<polygon class="st0" points="12.3,7.5 2.3,1 2.3,14 "/>
-								</svg>
-								
-								<svg class="svg pause" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 13 13" xml:space="preserve">
-									<title>Pause</title>
-									<g>
-										<polyline class="st0" points="4,0 4,13 5,13 5,0 	"/>
-										<polyline class="st0" points="8,0 8,13 9,13 9,0 	"/>
-									</g>
-								</svg>
-							</button>
-							
-							<button type="button" class="control next" data-action="next">
-								<svg class="svg next" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" xml:space="preserve">
-									<title>Next</title>
-									<g>
-										<polyline class="st0" points="10.5,13.5 15.5,10 10.5,6.5 	"/>
-										<polyline class="st0" points="5.4,13.5 10.4,10 5.4,6.5 	"/>
-									</g>
-								</svg>
-							</button>
-						</div>
-					</section>
-
-					<div class="component-widget-ticker">
-						<div class="wrap">
-							<div class="inner">
-								<div class="text" lang="en">
-								</div>
-							</div>
-						</div>
-					</div>
 				</div>
  			</nav>
+			
+<!--			<canvas id="canvas">Your browser does not support the 'canvas' element.</canvas>-->
 			
 <!--			<nav class="mob-nav">
 
@@ -176,7 +130,7 @@
 											<div class="titles-out-wrap">
 												<h2 class="title" lang="en">
 													<span class="loop-ani-skew mix-blend-overlay">
-														<span class="loop-ani-traced-move"></span>
+														<span class="loop-ani-traced-move">Scroll to Enter</span>
 													</span>
 												</h2>
 
@@ -205,29 +159,26 @@
 					</div>
 				</section>
 				
-				<section class="component-section-base component-section-video video-section " data-type="video" data-id="video" >
+				<section class="component-section-base video-section" data-type="video" data-id="video" >
 					<div class="inner">
-						<div class="row">
-							<div class="col-md-4">
+						<div class="row pt-5">
+							<div class="col-md-4 text-center">
 								<img src="TENT1.png">
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-4 text-center">
 								<img src="TENT2.png">
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-4 text-center">
 								<img src="TENT3.png">
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-4 text-center offset-2">
 								<img src="TENT4.png">
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-4 text-center">
 								<img src="TENT5.png">
-							</div>
-							<div class="col-md-4">
-								<img src="TENT1.png">
-							</div>					
+							</div>				
 						</div>
-						<div class="container" id="about">
+						<div class="container-fluid" id="about">
 							<!-- Section: Features v.1 -->
 							<section id="features" class="section feature-box mt-5 mb-5">
 
@@ -237,20 +188,76 @@
 								</h3>
 
 								<!-- Section description -->
-								<p class="text-center w-responsive mx-auto my-5 grey-text wow fadeIn" data-wow-delay="0.2s">
+								<p class="text-center w-responsive mx-auto my-5 grey-text wow fadeIn lead" data-wow-delay="0.2s">
 									Ladies and Gentlemen this is the moment that you've been waiting for...There is a circus in town, this spring, you just can't ignore! 
 								</p>
 
-								<p class="text-center w-responsive mx-auto my-5 grey-text wow fadeIn" data-wow-delay="0.2s">
+								<p class="text-center w-responsive mx-auto my-5 grey-text wow fadeIn lead" data-wow-delay="0.2s">
 									Stranger or bruvver, to 'The Great Nitrutsav Show' everyone will surrender!
 								</p>
 
-								<p class="text-center w-responsive mx-auto my-5 grey-text wow fadeIn" data-wow-delay="0.2s">
+								<p class="text-center w-responsive mx-auto my-5 grey-text wow fadeIn lead" data-wow-delay="0.2s">
 									Hold your breath & pull up your socks as we present to you Nitrutsav '19- the much-awaited cultural carousel, right here at NIT Rourkela! With many, many glittering shows, dazzling events and, superb workshops NU '19 promises you mighty exhilaration like never before. Get ready to experience artistic expression at its best as NITR paints Rourkela in the jovial hues of Red, Yellow and Blue!
 								</p>
 								<!--Grid row-->
 							</section>
 						</div>
+						
+						<!-- Streak -->
+						<div class="streak streak-photo streak-long-2" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/46.jpg');">
+							<div class="flex-center mask rgba-indigo-strong">
+								<div class="text-center white-text">
+									<h2 class="font-weight-bold mb-3 pt-4 mt-4">A Circus Coming soon at NIT Rourkela!</h2>
+									<p class="font-weight-bold white-text">Friday 01/02/2019, 3:30 PM</p>
+
+									<!--Grid row-->
+									<div class="row mt-5 mb-5">
+										<!--Grid column-->
+										<div class="col-lg-4 col-md-4">
+											<hr class="white mx-5">
+											<h1 class="display-4 font-weight-bold white-text">
+												<strong>49</strong>
+											</h1>
+
+											<hr class="white mx-5">
+
+											<p class="font-weight-bold spacing">DAYS</p>
+										</div>
+										<!--Grid column-->
+
+										<!--Grid column-->
+										<div class="col-lg-4 col-md-4">
+											<h1 class="display-4 font-weight-bold white-text rgba-white-light mx-4 py-3 mt-3">
+												<strong>12</strong>
+											</h1>
+
+											<p class="font-weight-bold spacing pt-3">HOURS</p>
+										</div>
+										<!--Grid column-->
+
+										<!--Grid column-->
+										<div class="col-lg-4 col-md-4">
+											<hr class="white mx-5">
+											<h1 class="display-4 font-weight-bold white-text">
+												<strong>35</strong>
+											</h1>
+
+											<hr class="white mx-5">
+
+											<p class="font-weight-bold spacing">MINS</p>
+										</div>
+										<!--Grid column-->
+									</div>
+									<!--Grid row-->
+								</div>	
+							</div>
+						</div>
+						<!-- Streak -->
+						
+						<div>
+<!--							Content goes here-->
+						</div>
+						
 					</div>
 				</section>
 			</div>
@@ -264,6 +271,31 @@
 	<script type="text/javascript" src="js.js"></script>
 	<script type="text/javascript">require(["main"], function(main) {main.run({region: 'na',locale: 'en_US',landingUrlPattern: 'http://pentakill.leagueoflegends.com/{{locale}}/',versionedAssetPath: 'https://lolstatic-a.akamaihd.net/frontpage/apps/prod/pentakill2/en_US/7bd32ba296c00775cac78023e40c62381f35cf2c/assets/',qualaroo: {"onLoadSurveyId":"177363","afterVideoPlayingSurveyIds":["177368","177367","177366","177365","177364"]}});});
 	</script>
+	<!--  MDB core JavaScript  -->
+  	<script type="text/javascript" src="https://mdbootstrap.com/previews/templates/landing-page/js/mdb.min.js"></script>
+	<script>
+		//Animation init
+		new WOW().init();
+		
+		//Modal
+		$('#myModal').on('shown.bs.modal', function () {
+		  $('#myInput').focus()
+		})
+		
+		// MDB Lightbox Init
+		$(function () {
+		  $("#mdb-lightbox-ui").load("https://mdbootstrap.com/previews/templates/landing-page/mdb-addons/mdb-lightbox-ui.html");
+		});
+  	</script>
+<!--
+	<script>
+		// Load app.js script after document has rendered.
+		var script = document.createElement('script');
+		script.src = 'app.js';
+		script.type = 'text/javascript';
+		document.getElementsByTagName('body')[0].appendChild(script);
+	</script>
+-->
 
 </body>
 </html>
