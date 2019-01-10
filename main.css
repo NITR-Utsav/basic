@@ -1000,7 +1000,7 @@
 }
 
 .component-atmosphere-abyss .bg-flat {
-    background: url(bg1.png) no-repeat center center/cover
+    background: url(bg2.png) no-repeat center center/cover
 }
 
 .component-atmosphere-abyss .bg-dark-overlay {
@@ -3035,8 +3035,8 @@ html.no-csspointerevents .component-section-album .tracks-video-carousel[data-vi
 }
 
 .component-section-masthead-content-container>.inner .pentakill-marque div {
-    position: absolute;
-    top: 26px;
+    position: fixed;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%
@@ -3046,20 +3046,8 @@ html.no-csspointerevents .component-section-album .tracks-video-carousel[data-vi
     opacity: 1
 }
 
-.component-section-masthead-content-container>.inner .pentakill-marque .marque-numerals>.inner {
-    opacity: 0.8;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(pentakill-marque-ii.png) no-repeat center center;
-    background-size: auto 100%
-}
-
 .component-section-masthead-content-container>.inner .pentakill-marque .marque-mask .the-mask {
-    background: url(Asset3.png) no-repeat center center/100%
+    background: url(bg1.png) no-repeat center center/100%
 }
 
 .component-section-masthead-content-container>.inner .subtitle {
